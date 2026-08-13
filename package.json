@@ -1,0 +1,18 @@
+{
+  "name": "notice-board-app",
+  "version": "1.0.0",
+  "description": "College Notice Board Announcement System - Minor Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cookie-parser": "^1.4.6",
+    "jsonwebtoken": "^9.0.2",
+    "@upstash/redis": "^1.34.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
